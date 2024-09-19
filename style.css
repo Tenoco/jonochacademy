@@ -1,0 +1,66 @@
+/* style.css */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* Pink */
+    padding: 30px;
+    border-radius: 0 0 20px 20px; /* Rounded bottom corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.motto {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+h2 {
+    color: #ff69b4; /* Pink */
+    border-bottom: 2px solid #ff69b4; /* Underline effect */
+    padding-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(255, 105, 180, 0.1); /* Light pink background */
+    border-radius: 10px; /* Rounded corners for sections */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    color: cyan; /* Cyan link color */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff69b4; /* Pink footer */
+    border-radius: 20px; /* Fully rounded footer */
+}
+
+/* Light mode styles */
+.light-mode {
+   background-color: #ffffff; /* Light background for light mode */
+   color: #000000; /* Dark text for light mode */
+}
+
+.light-mode section {
+   background-color: rgba(255, 192, 203, 0.5); /* Lighter pink for sections in light mode */
+}
